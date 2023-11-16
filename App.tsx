@@ -1,10 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React, { useEffect, useState } from 'react';
 import * as ts from 'typescript';
 import {
@@ -20,6 +13,7 @@ import SplashScreen from './components/SplashScreen';
 
 function App(): JSX.Element {
 
+  // Stan przechowujący aktualne wejście do kalkulatora
   const [input, updateInput] = useState("");
   const [isAdvancedMode, toggleAdvancedMode] = useState(false);
   const [appReady, setAppReady] = useState(false);
@@ -33,6 +27,7 @@ function App(): JSX.Element {
         }
   }
 
+  // Inicjalizacja aplikacji po uruchomieniu
   useEffect(() => {
     const initializeApp = async () => {
       await new Promise(resolve => setTimeout(resolve, 2000));
@@ -77,12 +72,25 @@ function App(): JSX.Element {
       case '=':
         calc(input);
         break;
+      case 'sinh':
+        calc('Math.tan('+input+')');
+        break;
+      case 'cosh':
+        calc('Math.tan('+input+')');
+        break;
+      case 'tanh':
+        calc('Math.tan('+input+')');
+        break;
+      case 'log10':
+        calc('Math.tan('+input+')');
+        break;
       default:
         updateInput(input + _type);
         break;
     }
   }
 
+  // Obsługa zmiany orientacji urządzenia
   useEffect(() => {
     const handleOrientationChange = () => {
       const {width, height} = Dimensions.get('window');

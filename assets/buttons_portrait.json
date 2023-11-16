@@ -3,19 +3,19 @@
         [
             {
                 "title": "AC",
-                "backgroundColor": "#c23525",
+                "backgroundColor": "#AAB0A5",
                 "disabled": false,
                 "flex": 1
             },
             {
                 "title": "",
-                "backgroundColor": "#636363",
+                "backgroundColor": "#AAB0A5",
                 "disabled": true,
                 "flex": 2
             },
             {
                 "title": "/",
-                "backgroundColor": "#bf7632",
+                "backgroundColor": "#DBA71A",
                 "disabled": false,
                 "flex": 1
             }
@@ -41,7 +41,7 @@
             },
             {
                 "title": "*",
-                "backgroundColor": "#bf7632",
+                "backgroundColor": "#DBA71A",
                 "disabled": false,
                 "flex": 1
             }
@@ -67,7 +67,7 @@
             },
             {
                 "title": "-",
-                "backgroundColor": "#bf7632",
+                "backgroundColor": "#DBA71A",
                 "disabled": false,
                 "flex": 1
             }
@@ -93,7 +93,7 @@
             },
             {
                 "title": "+",
-                "backgroundColor": "#bf7632",
+                "backgroundColor": "#DBA71A",
                 "disabled": false,
                 "flex": 1
             }
@@ -113,7 +113,7 @@
             },
             {
                 "title": "=",
-                "backgroundColor": "#316903",
+                "backgroundColor": "#DBA71A",
                 "disabled": false,
                 "flex": 1
             }

@@ -1,4 +1,4 @@
-import React from "react";
+import React = require("react");
 import { Button, Pressable, Text, TouchableOpacity, View } from "react-native";
 import buttonsJson = require('../assets/buttons_portrait.json');
 
@@ -31,7 +31,7 @@ const TouchableCalculator = (props: TCProps): JSX.Element => {
                             style={{
                                 backgroundColor: btn.backgroundColor,
                                 width: btn.flex === 1 ? '25%' : '50%',
-                                borderColor: '#454545',
+                                borderColor: '#45454',
                                 borderWidth: 1,
                             }}
                             onPress={() => (props.func(btn.title))}
