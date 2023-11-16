@@ -1,0 +1,122 @@
+{
+    "buttons": [
+        [
+            {
+                "title": "AC",
+                "backgroundColor": "#c23525",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "",
+                "backgroundColor": "#636363",
+                "disabled": true,
+                "flex": 2
+            },
+            {
+                "title": "/",
+                "backgroundColor": "#bf7632",
+                "disabled": false,
+                "flex": 1
+            }
+        ],
+        [
+            {
+                "title": "7",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "8",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "9",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "*",
+                "backgroundColor": "#bf7632",
+                "disabled": false,
+                "flex": 1
+            }
+        ],
+        [
+            {
+                "title": "4",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "5",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "6",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "-",
+                "backgroundColor": "#bf7632",
+                "disabled": false,
+                "flex": 1
+            }
+        ],
+        [
+            {
+                "title": "1",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "2",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "3",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "+",
+                "backgroundColor": "#bf7632",
+                "disabled": false,
+                "flex": 1
+            }
+        ],
+        [
+            {
+                "title": "0",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 2
+            },
+            {
+                "title": ".",
+                "backgroundColor": "#636363",
+                "disabled": false,
+                "flex": 1
+            },
+            {
+                "title": "=",
+                "backgroundColor": "#316903",
+                "disabled": false,
+                "flex": 1
+            }
+        ]
+    ]
+}
